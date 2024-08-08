@@ -1,0 +1,10 @@
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("EPIC GYM BRO BENCH MAX CALCULATOR")
+            .frame(width: 400, height: 600, alignment: .top)
+        }
+    }
+}
