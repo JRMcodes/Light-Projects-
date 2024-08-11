@@ -3,8 +3,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            Image("IMG_0048.JPG")
+                .resizable()
+                .scaledToFill()
             Text("EPIC GYM BRO BENCH MAX CALCULATOR")
-            .frame(width: 400, height: 600, alignment: .top)
+                .background(Color.blue)
+                .padding(35)
+                .baselineOffset(CGFloat(10.0))
+                
         }
     }
 }
